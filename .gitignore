@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.env
+
+# Node
+node_modules/
+rag-ui/dist/
+
+# Database files
+*.db
+chroma_db_google/
+rag-agent/chroma_db_google/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude/Gemini
+.claude/
+rag-agent/.claude/
+
+# Git subdirectories
+rag-agent/.git/
